@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="tests"
+	thread-count="2">
+	<!-- <listeners> <listener class-name="com.utils.AnnotationTransformer" 
+		/> </listeners> -->
+	<!-- <parameter name="browserType" value="chrome" /> <parameter name="appURL" 
+		value="https://google.com" /> -->
+
+
+	<test name="CBTEST">
+
+		<classes>
+
+			<class name="Encryption.IE_CustomerContactPage_731_732_764_S1_Test" />
+			
+
+		</classes>
+
+	</test>
+
+
+</suite>
+
